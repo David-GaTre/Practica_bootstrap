@@ -14,80 +14,102 @@
     <div class="container py-4">
         <header class="pb-3 mb-4 border-bottom">
           <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
-            <span class="fs-4">Practica Bootstrap</span>
+            <span class="fs-4">Bootstrap Practice</span>
           </a>
         </header>
     
-        <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="p-2 mb-4 bg-light rounded-3">
           <div class="container-fluid py-5">
-            <h1 class="display-5 fw-bold">Jumbotron</h1>
+            <h1 class="display-5 fw-bold">David García</h1>
+
+            <div class="card" style="width: 30rem;">
+            <img src="unsplash-photo-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                  <p class="card-text">This is my resume.
+                    <br>
+                    Currently studying Bachelor in Computer Science at Tec de Monterrey. GPA: 96.5/100
+                    <br>
+                    Semester dedicated to Data Science using SQL, Jupyter Notebooks (Pandas and sklearn), ERP Systems and Tableau.
+                    <br>
+                    Summer at ITMO University in Saint Petesburg with focus on cybersecurity and competitive programming.
+                  </p>
+                  <div class="spinner-border" role="status">
+                      <span class="visually-hidden">Loading...</span>
+                  </div>
+            </div>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  June 2022 - Present: Meta Platforms Inc
+                </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p> Data Engineer Intern. Work with full data pipelines project using Presto and Dashboard creation using
+                      Tableau-like apps </p>
+                </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  June 2021 - June 2022: Kuona Analytics
+                </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p> Software/Data Engineer Intern using Django as main tool. In charge of tasks regarding data engineering,
+                      ETLS, developing app features, internal tools, and database management. Optimized loading time of big data by 20%. </p>
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <br>
+            <br>
+
+            <ul class="list-group">
+              <li class="list-group-item active" aria-current="true">Some of my projects</li>
+              <li class="list-group-item">2021 – Predictive models of material production and dashbords of material consumption for CEMEX</li>
+              <li class="list-group-item">2020 – Covid-19 pandemic themed videogame using Java</li>
+            </ul>
+
+            <br>
+
             <button type="button" class="btn btn-primary position-relative" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Ejemplo boton modal
+                Accomplishments
                 <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                    Esto es una badge
+                    Click to see accomplishments
                     <span class="visually-hidden">unread messages</span>
                 </span>
             </button>
+
+            <br>
+            <br>
+
+            <p> Pass the mouse over the buttons below.</p>
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="C++, SQL, Python, Ruby/RoR, Django and Java.">
+                Working skills
+              </button>
+              <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Node.js, R, Bootstrap, HTML, Javascript, CSS and C#. Usage of Tableau, SAP and Excel.">
+                Hard skills
+              </button>
+              <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Teamwork and task management for teams.">
+                Soft skills
+              </button>
+            </div>
+
           </div>
         </div>
 
-        <div class="btn-group" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-primary">BotonInutil1</button>
-            <button type="button" class="btn btn-primary">BotonInutil2</button>
-            <button type="button" class="btn btn-primary">BotonInutil3</button>
-        </div>
-        <div class="spinner-border" role="status">
-            <span class="visually-hidden">Loading...</span>
-        </div>
-        <br>
-        <br>
-        <ul class="list-group">
-            <li class="list-group-item active" aria-current="true">LIST GROUP</li>
-            <li class="list-group-item">DOS</li>
-            <li class="list-group-item">TRES</li>
-          </ul>
-        <br>
-        <div>
-            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Este es el tooltip">
-                Pasa el mouse sobre mi!
-            </button>
-        </div>
-        
-        <div class="card" style="width: 18rem;">
-        <img src="unsplash-photo-1.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-            <p class="card-text">Esta es una card normal.</p>
-        </div>
-        </div>
-        <br>
-        <br>
-
-        <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Accordion 1
-            </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-                <p> Relleno </p>
-            </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Accordion 2
-            </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-                <p> Relleno </p>
-            </div>
-            </div>
-        </div>
-        </div>
         
     </div>
 
@@ -98,14 +120,19 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal de Ejemplo</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Accomplishments</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          Ignorar
-        </div>
+          Leadership: president of the student group dedicated
+          to photography and journalism during high school,
+          participating at all high school events and congresses.
+          <br>
+          April 2017 - 1st place at ITESM Lamarr Project
+          contest (mainly focused in technology and innovation)
+                  </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
